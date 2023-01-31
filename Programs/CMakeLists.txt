@@ -19,10 +19,12 @@ add_executable(loops1 loops/Estimate_PI.cpp loops/Factorial.cpp)
 
 add_executable(arrays_1 arrays/Introduction.cpp)
 
-add_executable(pointers_1 pointers/Intro.cpp pointers/non_constant_pointer_to_non_constant_data.cpp)
+add_executable(pointers_1 pointers/Intro.cpp)
 add_executable(pointers_2 pointers/pass_by_reference.cpp)
 add_executable(pointers_3 pointers/pass_by_ref_2.cpp)
 add_executable(pointers_4 pointers/constant_pointers.cpp)
 add_executable(pointers_5 pointers/non_constant_pointer_to_constant_data.cpp)
 add_executable(pointers_6 pointers/constant_pointer_to_constant_data.cpp)
 add_executable(pointers_7 pointers/constant_pointer_to_non_constant_data.cpp)
+add_executable(pointers_8 pointers/non_constant_pointer_to_non_constant_data.cpp)
+add_executable(pointers_9 pointers/arithmetics/pointer_addition.cpp)

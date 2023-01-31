@@ -391,12 +391,6 @@ build CMakeFiles/pointers_1.dir/pointers/Intro.cpp.obj: CXX_COMPILER__pointers_1
   OBJECT_DIR = CMakeFiles\pointers_1.dir
   OBJECT_FILE_DIR = CMakeFiles\pointers_1.dir\pointers
 
-build CMakeFiles/pointers_1.dir/pointers/non_constant_pointer_to_non_constant_data.cpp.obj: CXX_COMPILER__pointers_1_Debug S$:/Programming/C++/Programs/pointers/non_constant_pointer_to_non_constant_data.cpp || cmake_object_order_depends_target_pointers_1
-  DEP_FILE = CMakeFiles\pointers_1.dir\pointers\non_constant_pointer_to_non_constant_data.cpp.obj.d
-  FLAGS = -g -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles\pointers_1.dir
-  OBJECT_FILE_DIR = CMakeFiles\pointers_1.dir\pointers
-
 
 # =============================================================================
 # Link build statements for EXECUTABLE target pointers_1
@@ -405,7 +399,7 @@ build CMakeFiles/pointers_1.dir/pointers/non_constant_pointer_to_non_constant_da
 #############################################
 # Link the executable pointers_1.exe
 
-build pointers_1.exe: CXX_EXECUTABLE_LINKER__pointers_1_Debug CMakeFiles/pointers_1.dir/pointers/Intro.cpp.obj CMakeFiles/pointers_1.dir/pointers/non_constant_pointer_to_non_constant_data.cpp.obj
+build pointers_1.exe: CXX_EXECUTABLE_LINKER__pointers_1_Debug CMakeFiles/pointers_1.dir/pointers/Intro.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\pointers_1.dir
@@ -613,6 +607,72 @@ build pointers_7.exe: CXX_EXECUTABLE_LINKER__pointers_7_Debug CMakeFiles/pointer
   TARGET_IMPLIB = libpointers_7.dll.a
   TARGET_PDB = pointers_7.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target pointers_8
+
+
+#############################################
+# Order-only phony target for pointers_8
+
+build cmake_object_order_depends_target_pointers_8: phony || CMakeFiles/pointers_8.dir
+
+build CMakeFiles/pointers_8.dir/pointers/non_constant_pointer_to_non_constant_data.cpp.obj: CXX_COMPILER__pointers_8_Debug S$:/Programming/C++/Programs/pointers/non_constant_pointer_to_non_constant_data.cpp || cmake_object_order_depends_target_pointers_8
+  DEP_FILE = CMakeFiles\pointers_8.dir\pointers\non_constant_pointer_to_non_constant_data.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\pointers_8.dir
+  OBJECT_FILE_DIR = CMakeFiles\pointers_8.dir\pointers
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target pointers_8
+
+
+#############################################
+# Link the executable pointers_8.exe
+
+build pointers_8.exe: CXX_EXECUTABLE_LINKER__pointers_8_Debug CMakeFiles/pointers_8.dir/pointers/non_constant_pointer_to_non_constant_data.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\pointers_8.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = pointers_8.exe
+  TARGET_IMPLIB = libpointers_8.dll.a
+  TARGET_PDB = pointers_8.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target pointers_9
+
+
+#############################################
+# Order-only phony target for pointers_9
+
+build cmake_object_order_depends_target_pointers_9: phony || CMakeFiles/pointers_9.dir
+
+build CMakeFiles/pointers_9.dir/pointers/arithmetics/pointer_addition.cpp.obj: CXX_COMPILER__pointers_9_Debug S$:/Programming/C++/Programs/pointers/arithmetics/pointer_addition.cpp || cmake_object_order_depends_target_pointers_9
+  DEP_FILE = CMakeFiles\pointers_9.dir\pointers\arithmetics\pointer_addition.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\pointers_9.dir
+  OBJECT_FILE_DIR = CMakeFiles\pointers_9.dir\pointers\arithmetics
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target pointers_9
+
+
+#############################################
+# Link the executable pointers_9.exe
+
+build pointers_9.exe: CXX_EXECUTABLE_LINKER__pointers_9_Debug CMakeFiles/pointers_9.dir/pointers/arithmetics/pointer_addition.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\pointers_9.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = pointers_9.exe
+  TARGET_IMPLIB = libpointers_9.dll.a
+  TARGET_PDB = pointers_9.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -673,6 +733,10 @@ build pointers_6: phony pointers_6.exe
 
 build pointers_7: phony pointers_7.exe
 
+build pointers_8: phony pointers_8.exe
+
+build pointers_9: phony pointers_9.exe
+
 # =============================================================================
 # Folder targets.
 
@@ -681,7 +745,7 @@ build pointers_7: phony pointers_7.exe
 #############################################
 # Folder: S:/Programming/C++/Programs/cmake-build-debug
 
-build all: phony Programs.exe functions_1.exe functions_2.exe functions_templates_1.exe functions_templates_2.exe functions_recursion_1.exe functions_recursion_2.exe functions_recursion_3.exe loops1.exe arrays_1.exe pointers_1.exe pointers_2.exe pointers_3.exe pointers_4.exe pointers_5.exe pointers_6.exe pointers_7.exe
+build all: phony Programs.exe functions_1.exe functions_2.exe functions_templates_1.exe functions_templates_2.exe functions_recursion_1.exe functions_recursion_2.exe functions_recursion_3.exe loops1.exe arrays_1.exe pointers_1.exe pointers_2.exe pointers_3.exe pointers_4.exe pointers_5.exe pointers_6.exe pointers_7.exe pointers_8.exe pointers_9.exe
 
 # =============================================================================
 # Built-in targets

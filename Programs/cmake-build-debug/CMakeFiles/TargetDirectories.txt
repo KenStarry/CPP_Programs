@@ -15,5 +15,7 @@ S:/Programming/C++/Programs/cmake-build-debug/CMakeFiles/pointers_4.dir
 S:/Programming/C++/Programs/cmake-build-debug/CMakeFiles/pointers_5.dir
 S:/Programming/C++/Programs/cmake-build-debug/CMakeFiles/pointers_6.dir
 S:/Programming/C++/Programs/cmake-build-debug/CMakeFiles/pointers_7.dir
+S:/Programming/C++/Programs/cmake-build-debug/CMakeFiles/pointers_8.dir
+S:/Programming/C++/Programs/cmake-build-debug/CMakeFiles/pointers_9.dir
 S:/Programming/C++/Programs/cmake-build-debug/CMakeFiles/edit_cache.dir
 S:/Programming/C++/Programs/cmake-build-debug/CMakeFiles/rebuild_cache.dir

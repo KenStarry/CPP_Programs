@@ -1,5 +1,5 @@
 # ninja log v5
-0	178	6968475012311206	build.ninja	6f47c59f7ea992dd
+0	178	6968481545551251	build.ninja	6f47c59f7ea992dd
 361	438	6956405666135478	loops1.exe	c8fd9dd1ee5448d
 284	362	6962431254442033	functions_recursion_2.exe	eadcb74e5d653a09
 3	389	6956418558755579	CMakeFiles/loops1.dir/loops/Estimate_PI.cpp.obj	8721b8106b8f700a
@@ -26,6 +26,7 @@
 233	301	6968466527039328	pointers_4.exe	dbd36cdb30818b1e
 2	392	6962446528655228	CMakeFiles/functions_recursion_1.dir/functions/recursion/Fibonacci.cpp.obj	4b7e03a093b2f
 392	526	6962446529965375	functions_recursion_1.exe	7e1d09d6a8f46028
+3	258	6968480646828099	CMakeFiles/arrays_1.dir/pointers/arithmetics/pointer_addition.cpp.obj	f0d4e21672c8f77f
 254	338	6962466705300339	functions_recursion_3.exe	fc87fbfed0ce761e
 2	290	6968432857669389	CMakeFiles/pointers_1.dir/pointers/Intro.cpp.obj	23023f4a441b691e
 0	243	6968438989964455	CMakeFiles/pointers_2.dir/pointers/pass_by_reference.cpp.obj	d39e57e13ac8a21e
