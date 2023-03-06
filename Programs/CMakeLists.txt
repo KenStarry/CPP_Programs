@@ -22,6 +22,10 @@ add_executable(arrays_1 arrays/Introduction.cpp)
 
 # files
 add_executable(files_1 files/writing_to_file.cpp)
+add_executable(files_2 files/reading_from_file.cpp)
+add_executable(files_3 files/cat/students_file.cpp)
+add_executable(files_4 files/cat/marks_file.cpp)
+add_executable(files_5 files/cat/files_cat.cpp)
 
 # vectors
 add_executable(vectors_1 vectors/intro.cpp)

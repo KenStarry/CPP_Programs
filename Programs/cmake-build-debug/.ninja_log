@@ -1,6 +1,6 @@
 # ninja log v5
 0	263	6968482760914452	CMakeFiles/pointers_9.dir/pointers/arithmetics/pointer_addition.cpp.obj	db433b6bc0042c2b
-1	378	6998260934474062	build.ninja	6f47c59f7ea992dd
+0	230	6998315822609434	build.ninja	6f47c59f7ea992dd
 361	438	6956405666135478	loops1.exe	c8fd9dd1ee5448d
 284	362	6962431254442033	functions_recursion_2.exe	eadcb74e5d653a09
 3	389	6956418558755579	CMakeFiles/loops1.dir/loops/Estimate_PI.cpp.obj	8721b8106b8f700a
@@ -8,6 +8,7 @@
 1	402	6951295766977703	CMakeFiles/Programs.dir/main.cpp.obj	93e3d4cb4959abbe
 0	274	6951304036512872	CMakeFiles/Programs_1.dir/functions/Maximum.cpp.obj	abc8eaa2535fee5f
 0	306	6961986036560224	CMakeFiles/arrays_1.dir/arrays/Introduction.cpp.obj	8876922ebfe5ba0d
+3	344	6998306140757126	CMakeFiles/files_2.dir/files/reading_from_file.cpp.obj	314c21a8097053bc
 274	369	6951304037443841	Programs_1.exe	69cc64e88c0b6f88
 253	331	6962416820229189	functions_2.exe	aff45c379ed769b3
 1	248	6951304720552252	CMakeFiles/functions_1.dir/functions/Maximum.cpp.obj	ba698a1b13f9b426
@@ -21,6 +22,7 @@
 5	385	6962386708083142	CMakeFiles/functions_intro.dir/functions/templates/introduction.cpp.obj	dc2e2727a2abd3b5
 386	599	6962386710157313	functions_intro.exe	c1f4db8765f0677b
 2	253	6962416819495749	CMakeFiles/functions_2.dir/functions/default_arguments.cpp.obj	6919c228ea30417a
+569	715	6998268086079038	files_1.exe	e393068787c4fc94
 0	307	6962430371590486	CMakeFiles/functions_recursion_1.dir/functions/recursion/Factorial.cpp.obj	e28261cd1fddb1c3
 3	283	6962431253706383	CMakeFiles/functions_recursion_2.dir/functions/recursion/Factorial.cpp.obj	1d3b11dc3f11aae2
 2	241	6962441081237441	CMakeFiles/functions_templates_2.dir/functions/templates/maximum.cpp.obj	fd72ac3124cf9a9e
@@ -42,10 +44,7 @@
 253	331	6968498939910689	pointers_10.exe	7e52e658321657d7
 3	357	6986209376394144	CMakeFiles/vectors_2.dir/vectors/inserting.cpp.obj	bdb04d1ef8f2568c
 357	436	6986209377128255	vectors_2.exe	d4f383873a46cfe4
-0	230	6998260934474062	build.ninja	6f47c59f7ea992dd
-0	463	6998260940459058	CMakeFiles/files_1.dir/files/writing_to_file.cpp.obj	d7192fdf7ab72b4d
-463	677	6998260942550212	files_1.exe	e393068787c4fc94
-3	318	6998265096187373	CMakeFiles/files_1.dir/files/writing_to_file.cpp.obj	d7192fdf7ab72b4d
-318	395	6998265096929725	files_1.exe	e393068787c4fc94
 3	569	6998268084663688	CMakeFiles/files_1.dir/files/writing_to_file.cpp.obj	d7192fdf7ab72b4d
-569	715	6998268086079038	files_1.exe	e393068787c4fc94
+345	441	6998306141709058	files_2.exe	41b5a63ee2b1061a
+2	339	6998312511807368	CMakeFiles/files_3.dir/files/files_cat.cpp.obj	e37946b3f212177b
+339	437	6998312512743876	files_3.exe	6e616bbf26523dbe
