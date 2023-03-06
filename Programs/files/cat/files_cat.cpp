@@ -68,11 +68,9 @@ int main() {
                  << "COMMENT" << ", "
                  << endl;
 
-    while (getline(read_from_studs, line)) {
+    while (getline(read_from_studs, studsLine)) {
 
-        read_from_studs >> reg >> lname >> fname;
-
-//        float total_marks = data[iterate].at(0) + data[iterate].at(1) + data[iterate].at(2);
+        read_from_studs >> reg >> fname >> lname;
 
         float total_marks;
 
@@ -112,8 +110,8 @@ int main() {
         //  store student details
         stud_results << iterate + 1 << ", "
                      << reg << ", "
-                     << fname << ", "
                      << lname << ", "
+                     << fname << ", "
                      << data[iterate].at(0) << ", "
                      << data[iterate].at(1) << ", "
                      << data[iterate].at(2) << ", "
