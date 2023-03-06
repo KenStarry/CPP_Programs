@@ -11,7 +11,7 @@ int main() {
     array<int, 5> numbers = {5, 6, 7, 8, 10};
 
     //  template array 2D
-    array<array<int, 3>, 2> data2DArray {5, 6, 7};
+    array<array<int, 3>, 2> data2DArray{};
 
     //  normal array
     int data[5];

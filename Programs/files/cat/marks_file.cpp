@@ -14,9 +14,12 @@ int main() {
     //  reading from student.txt
     ifstream stud_reg_fin(R"(S:\Programming\C++\Programs\files\my files\students.txt)", ios::in);
 
+    char comma = ',';
     string reg;
     int cat1, cat2, exam;
     while (getline(stud_reg_fin, reg)) {
+
+        string formattedReg = reg.substr(0, reg.find('\t'));
 
         //  append to csv file
         //  reading cat 1
@@ -31,11 +34,30 @@ int main() {
         cout << "Exam : ";
         cin >> exam;
 
-        marks_fout << reg << ", "
-                   << cat1 << ", "
-                   << cat2 << ", "
-                   << exam << endl;
+        if (cat1 == 0 && cat2 == 0) {
 
+            marks_fout << formattedReg << ", "
+                       << -1 << ", "
+                       << -1 << ", "
+                       << exam << endl;
+        } else if (cat1 == 0) {
+
+            marks_fout << formattedReg << ", "
+                       << -1 << ", "
+                       << cat2 << ", "
+                       << exam << endl;
+        } else if (cat2 == 0 ) {
+
+            marks_fout << formattedReg << ", "
+                       << cat1 << ", "
+                       << -1 << ", "
+                       << exam << endl;
+        } else {
+            marks_fout << formattedReg << ", "
+                       << cat1 << ", "
+                       << cat2 << ", "
+                       << exam << endl;
+        }
     }
 
     stud_reg_fin.close();

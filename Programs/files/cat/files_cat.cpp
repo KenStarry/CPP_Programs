@@ -3,43 +3,131 @@
 //
 #include <iostream>
 #include <fstream>
+#include <array>
+#include <vector>
+#include <string>
+#include <sstream>
 
 using namespace std;
 
 int main() {
 
     //  MARKS.CSV
-    ofstream marks_fout(R"(S:\Programming\C++\Programs\files\my files\marks.csv)", ios::out);
+    array<array<float, 3>, 5> data{};
 
-    //  reading from student.txt
-    ifstream stud_reg_fin(R"(S:\Programming\C++\Programs\files\my files\students.txt)", ios::in);
+    ifstream results_fin(R"(S:\Programming\C++\Programs\files\my files\marks.csv)", ios::in);
 
-    string reg;
-    int cat1, cat2, exam;
-    while (getline(stud_reg_fin, reg)) {
+    vector<string> results_row;
 
-        //  append to csv file
-        //  reading cat 1
-        cout << "Cat 1 : ";
-        cin >> cat1;
+    //  temp uses the first column as the key
+    string line, marks, temp;
 
-        //  reading fname
-        cout << "Cat 2 : ";
-        cin >> cat2;
+    int i = 0;
+    while (results_fin >> temp) {
 
-        //  reading lname
-        cout << "Exam : ";
-        cin >> exam;
+        results_row.clear();
 
-        marks_fout << reg << ", "
-                   << cat1 << ", "
-                   << cat2 << ", "
-                   << exam << endl;
+        getline(results_fin, line);
 
+        stringstream s(line);
+
+        int j = 0;
+        while (getline(s, marks, ',')) {
+
+            results_row.push_back(marks);
+
+            float markNum = stof(marks);
+
+            data[i].at(j) = markNum;
+            j++;
+        }
+
+        cout << endl;
+        i++;
     }
 
-    stud_reg_fin.close();
-    marks_fout.close();
+    results_fin.close();
+
+    string studsLine, marksLine;
+    string reg, fname, lname;
+
+    ofstream stud_results(R"(S:\Programming\C++\Programs\files\my files\results.csv)", ios::out);
+    ifstream read_from_studs(R"(S:\Programming\C++\Programs\files\my files\students.txt)", ios::in);
+    ifstream read_from_marks(R"(S:\Programming\C++\Programs\files\my files\marks.csv)", ios::in);
+
+    int iterate = 0;
+    stud_results << "SR. No" << ", "
+                 << "REG_NO" << ", "
+                 << "Last Name" << ", "
+                 << "First Name" << ", "
+                 << "CAT 1" << ", "
+                 << "CAT 2" << ", "
+                 << "EXAM" << ", "
+                 << "TOTAL" << ", "
+                 << "GRADE" << ", "
+                 << "COMMENT" << ", "
+                 << endl;
+
+    while (getline(read_from_studs, line)) {
+
+        read_from_studs >> reg >> lname >> fname;
+
+//        float total_marks = data[iterate].at(0) + data[iterate].at(1) + data[iterate].at(2);
+
+        float total_marks;
+
+        if (data[iterate].at(0) < 0 ||
+            data[iterate].at(1) < 0 ||
+            data[iterate].at(2) < 0) {
+
+            total_marks = -1;
+        } else {
+            total_marks = data[iterate].at(0) + data[iterate].at(1) + data[iterate].at(2);
+        }
+
+        char grade;
+        if (total_marks >= 70 && total_marks < 100) {
+            grade = 'A';
+        } else if (total_marks >= 60 && total_marks < 70) {
+            grade = 'B';
+        } else if (total_marks >= 50 && total_marks < 60) {
+            grade = 'C';
+        } else if (total_marks >= 40 && total_marks < 50) {
+            grade = 'D';
+        } else if (total_marks == 0 && total_marks < 40) {
+            grade = 'E';
+        } else {
+            grade = 'F';
+        }
+
+        string comment;
+        if (grade == 'A' || grade == 'B' || grade == 'C' || grade == 'D') {
+            comment = "PASS";
+        } else if (grade == 'E') {
+            comment = "FAIL";
+        } else {
+            comment = "INCOMPLETE";
+        }
+
+        //  store student details
+        stud_results << iterate + 1 << ", "
+                     << reg << ", "
+                     << fname << ", "
+                     << lname << ", "
+                     << data[iterate].at(0) << ", "
+                     << data[iterate].at(1) << ", "
+                     << data[iterate].at(2) << ", "
+                     << total_marks << ", "
+                     << grade << ", "
+                     << comment << ", "
+                     << endl;
+
+        iterate++;
+    }
+
+    read_from_studs.close();
+    read_from_marks.close();
+    stud_results.close();
 
     return 0;
 }

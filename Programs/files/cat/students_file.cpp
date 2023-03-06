@@ -27,7 +27,7 @@ int main () {
         cout << "Last Name : ";
         getline(cin, lname);
 
-        stud_fout << reg << "\t" << fname << " " << lname << endl;
+        stud_fout << reg << " " << fname << " " << lname << endl;
     }
 
     stud_fout.close();
