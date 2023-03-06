@@ -17,7 +17,11 @@ add_executable(functions_recursion_3 functions/recursion/Tribonacci.cpp)
 
 add_executable(loops1 loops/Estimate_PI.cpp loops/Factorial.cpp)
 
+#   arrays
 add_executable(arrays_1 arrays/Introduction.cpp)
+
+# files
+add_executable(files_1 files/writing_to_file.cpp)
 
 # vectors
 add_executable(vectors_1 vectors/intro.cpp)

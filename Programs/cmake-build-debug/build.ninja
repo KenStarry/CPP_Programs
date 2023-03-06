@@ -377,6 +377,39 @@ build arrays_1.exe: CXX_EXECUTABLE_LINKER__arrays_1_Debug CMakeFiles/arrays_1.di
   TARGET_PDB = arrays_1.exe.dbg
 
 # =============================================================================
+# Object build statements for EXECUTABLE target files_1
+
+
+#############################################
+# Order-only phony target for files_1
+
+build cmake_object_order_depends_target_files_1: phony || CMakeFiles/files_1.dir
+
+build CMakeFiles/files_1.dir/files/writing_to_file.cpp.obj: CXX_COMPILER__files_1_Debug S$:/Programming/C++/Programs/files/writing_to_file.cpp || cmake_object_order_depends_target_files_1
+  DEP_FILE = CMakeFiles\files_1.dir\files\writing_to_file.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\files_1.dir
+  OBJECT_FILE_DIR = CMakeFiles\files_1.dir\files
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target files_1
+
+
+#############################################
+# Link the executable files_1.exe
+
+build files_1.exe: CXX_EXECUTABLE_LINKER__files_1_Debug CMakeFiles/files_1.dir/files/writing_to_file.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\files_1.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = files_1.exe
+  TARGET_IMPLIB = libfiles_1.dll.a
+  TARGET_PDB = files_1.exe.dbg
+
+# =============================================================================
 # Object build statements for EXECUTABLE target vectors_1
 
 
@@ -802,6 +835,8 @@ build Programs: phony Programs.exe
 
 build arrays_1: phony arrays_1.exe
 
+build files_1: phony files_1.exe
+
 build functions_1: phony functions_1.exe
 
 build functions_2: phony functions_2.exe
@@ -850,7 +885,7 @@ build vectors_2: phony vectors_2.exe
 #############################################
 # Folder: S:/Programming/C++/Programs/cmake-build-debug
 
-build all: phony Programs.exe functions_1.exe functions_2.exe functions_templates_1.exe functions_templates_2.exe functions_recursion_1.exe functions_recursion_2.exe functions_recursion_3.exe loops1.exe arrays_1.exe vectors_1.exe vectors_2.exe pointers_1.exe pointers_2.exe pointers_3.exe pointers_4.exe pointers_5.exe pointers_6.exe pointers_7.exe pointers_8.exe pointers_9.exe pointers_10.exe
+build all: phony Programs.exe functions_1.exe functions_2.exe functions_templates_1.exe functions_templates_2.exe functions_recursion_1.exe functions_recursion_2.exe functions_recursion_3.exe loops1.exe arrays_1.exe files_1.exe vectors_1.exe vectors_2.exe pointers_1.exe pointers_2.exe pointers_3.exe pointers_4.exe pointers_5.exe pointers_6.exe pointers_7.exe pointers_8.exe pointers_9.exe pointers_10.exe
 
 # =============================================================================
 # Built-in targets
