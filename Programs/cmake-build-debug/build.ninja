@@ -377,6 +377,72 @@ build arrays_1.exe: CXX_EXECUTABLE_LINKER__arrays_1_Debug CMakeFiles/arrays_1.di
   TARGET_PDB = arrays_1.exe.dbg
 
 # =============================================================================
+# Object build statements for EXECUTABLE target exams1
+
+
+#############################################
+# Order-only phony target for exams1
+
+build cmake_object_order_depends_target_exams1: phony || CMakeFiles/exams1.dir
+
+build CMakeFiles/exams1.dir/exams/swap_any_type.cpp.obj: CXX_COMPILER__exams1_Debug S$:/Programming/C++/Programs/exams/swap$ any$ type.cpp || cmake_object_order_depends_target_exams1
+  DEP_FILE = CMakeFiles\exams1.dir\exams\swap_any_type.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\exams1.dir
+  OBJECT_FILE_DIR = CMakeFiles\exams1.dir\exams
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target exams1
+
+
+#############################################
+# Link the executable exams1.exe
+
+build exams1.exe: CXX_EXECUTABLE_LINKER__exams1_Debug CMakeFiles/exams1.dir/exams/swap_any_type.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\exams1.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = exams1.exe
+  TARGET_IMPLIB = libexams1.dll.a
+  TARGET_PDB = exams1.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target exams2
+
+
+#############################################
+# Order-only phony target for exams2
+
+build cmake_object_order_depends_target_exams2: phony || CMakeFiles/exams2.dir
+
+build CMakeFiles/exams2.dir/exams/recursive_factorial.cpp.obj: CXX_COMPILER__exams2_Debug S$:/Programming/C++/Programs/exams/recursive$ factorial.cpp || cmake_object_order_depends_target_exams2
+  DEP_FILE = CMakeFiles\exams2.dir\exams\recursive_factorial.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\exams2.dir
+  OBJECT_FILE_DIR = CMakeFiles\exams2.dir\exams
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target exams2
+
+
+#############################################
+# Link the executable exams2.exe
+
+build exams2.exe: CXX_EXECUTABLE_LINKER__exams2_Debug CMakeFiles/exams2.dir/exams/recursive_factorial.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\exams2.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = exams2.exe
+  TARGET_IMPLIB = libexams2.dll.a
+  TARGET_PDB = exams2.exe.dbg
+
+# =============================================================================
 # Object build statements for EXECUTABLE target files_1
 
 
@@ -967,6 +1033,10 @@ build Programs: phony Programs.exe
 
 build arrays_1: phony arrays_1.exe
 
+build exams1: phony exams1.exe
+
+build exams2: phony exams2.exe
+
 build files_1: phony files_1.exe
 
 build files_2: phony files_2.exe
@@ -1025,7 +1095,7 @@ build vectors_2: phony vectors_2.exe
 #############################################
 # Folder: S:/Programming/C++/Programs/cmake-build-debug
 
-build all: phony Programs.exe functions_1.exe functions_2.exe functions_templates_1.exe functions_templates_2.exe functions_recursion_1.exe functions_recursion_2.exe functions_recursion_3.exe loops1.exe arrays_1.exe files_1.exe files_2.exe files_3.exe files_4.exe files_5.exe vectors_1.exe vectors_2.exe pointers_1.exe pointers_2.exe pointers_3.exe pointers_4.exe pointers_5.exe pointers_6.exe pointers_7.exe pointers_8.exe pointers_9.exe pointers_10.exe
+build all: phony Programs.exe functions_1.exe functions_2.exe functions_templates_1.exe functions_templates_2.exe functions_recursion_1.exe functions_recursion_2.exe functions_recursion_3.exe loops1.exe arrays_1.exe exams1.exe exams2.exe files_1.exe files_2.exe files_3.exe files_4.exe files_5.exe vectors_1.exe vectors_2.exe pointers_1.exe pointers_2.exe pointers_3.exe pointers_4.exe pointers_5.exe pointers_6.exe pointers_7.exe pointers_8.exe pointers_9.exe pointers_10.exe
 
 # =============================================================================
 # Built-in targets

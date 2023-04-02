@@ -20,6 +20,10 @@ add_executable(loops1 loops/Estimate_PI.cpp loops/Factorial.cpp)
 #   arrays
 add_executable(arrays_1 arrays/Introduction.cpp)
 
+#exams
+add_executable(exams1 "exams/swap any type.cpp")
+add_executable(exams2 "exams/recursive factorial.cpp")
+
 # files
 add_executable(files_1 files/writing_to_file.cpp)
 add_executable(files_2 files/reading_from_file.cpp)
