@@ -23,6 +23,12 @@ add_executable(arrays_1 arrays/Introduction.cpp)
 #exams
 add_executable(exams1 "exams/swap any type.cpp")
 add_executable(exams2 "exams/recursive factorial.cpp")
+add_executable(exams3 "exams/recursive tribonacci.cpp")
+add_executable(exams4 "exams/recursive fibonacci.cpp")
+add_executable(exams5 "exams/function template to find minimum and maximum number.cpp")
+add_executable(exams6 "exams/arrange numbers in descending using func templates.cpp")
+add_executable(exams7 "exams/playlist/playlist main.cpp")
+#add_executable(exams8 "exams/playlist/Playlist.h")
 
 # files
 add_executable(files_1 files/writing_to_file.cpp)

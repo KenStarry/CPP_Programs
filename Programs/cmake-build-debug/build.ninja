@@ -443,6 +443,171 @@ build exams2.exe: CXX_EXECUTABLE_LINKER__exams2_Debug CMakeFiles/exams2.dir/exam
   TARGET_PDB = exams2.exe.dbg
 
 # =============================================================================
+# Object build statements for EXECUTABLE target exams3
+
+
+#############################################
+# Order-only phony target for exams3
+
+build cmake_object_order_depends_target_exams3: phony || CMakeFiles/exams3.dir
+
+build CMakeFiles/exams3.dir/exams/recursive_tribonacci.cpp.obj: CXX_COMPILER__exams3_Debug S$:/Programming/C++/Programs/exams/recursive$ tribonacci.cpp || cmake_object_order_depends_target_exams3
+  DEP_FILE = CMakeFiles\exams3.dir\exams\recursive_tribonacci.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\exams3.dir
+  OBJECT_FILE_DIR = CMakeFiles\exams3.dir\exams
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target exams3
+
+
+#############################################
+# Link the executable exams3.exe
+
+build exams3.exe: CXX_EXECUTABLE_LINKER__exams3_Debug CMakeFiles/exams3.dir/exams/recursive_tribonacci.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\exams3.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = exams3.exe
+  TARGET_IMPLIB = libexams3.dll.a
+  TARGET_PDB = exams3.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target exams4
+
+
+#############################################
+# Order-only phony target for exams4
+
+build cmake_object_order_depends_target_exams4: phony || CMakeFiles/exams4.dir
+
+build CMakeFiles/exams4.dir/exams/recursive_fibonacci.cpp.obj: CXX_COMPILER__exams4_Debug S$:/Programming/C++/Programs/exams/recursive$ fibonacci.cpp || cmake_object_order_depends_target_exams4
+  DEP_FILE = CMakeFiles\exams4.dir\exams\recursive_fibonacci.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\exams4.dir
+  OBJECT_FILE_DIR = CMakeFiles\exams4.dir\exams
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target exams4
+
+
+#############################################
+# Link the executable exams4.exe
+
+build exams4.exe: CXX_EXECUTABLE_LINKER__exams4_Debug CMakeFiles/exams4.dir/exams/recursive_fibonacci.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\exams4.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = exams4.exe
+  TARGET_IMPLIB = libexams4.dll.a
+  TARGET_PDB = exams4.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target exams5
+
+
+#############################################
+# Order-only phony target for exams5
+
+build cmake_object_order_depends_target_exams5: phony || CMakeFiles/exams5.dir
+
+build CMakeFiles/exams5.dir/exams/function_template_to_find_minimum_and_maximum_number.cpp.obj: CXX_COMPILER__exams5_Debug S$:/Programming/C++/Programs/exams/function$ template$ to$ find$ minimum$ and$ maximum$ number.cpp || cmake_object_order_depends_target_exams5
+  DEP_FILE = CMakeFiles\exams5.dir\exams\function_template_to_find_minimum_and_maximum_number.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\exams5.dir
+  OBJECT_FILE_DIR = CMakeFiles\exams5.dir\exams
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target exams5
+
+
+#############################################
+# Link the executable exams5.exe
+
+build exams5.exe: CXX_EXECUTABLE_LINKER__exams5_Debug CMakeFiles/exams5.dir/exams/function_template_to_find_minimum_and_maximum_number.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\exams5.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = exams5.exe
+  TARGET_IMPLIB = libexams5.dll.a
+  TARGET_PDB = exams5.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target exams6
+
+
+#############################################
+# Order-only phony target for exams6
+
+build cmake_object_order_depends_target_exams6: phony || CMakeFiles/exams6.dir
+
+build CMakeFiles/exams6.dir/exams/arrange_numbers_in_descending_using_func_templates.cpp.obj: CXX_COMPILER__exams6_Debug S$:/Programming/C++/Programs/exams/arrange$ numbers$ in$ descending$ using$ func$ templates.cpp || cmake_object_order_depends_target_exams6
+  DEP_FILE = CMakeFiles\exams6.dir\exams\arrange_numbers_in_descending_using_func_templates.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\exams6.dir
+  OBJECT_FILE_DIR = CMakeFiles\exams6.dir\exams
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target exams6
+
+
+#############################################
+# Link the executable exams6.exe
+
+build exams6.exe: CXX_EXECUTABLE_LINKER__exams6_Debug CMakeFiles/exams6.dir/exams/arrange_numbers_in_descending_using_func_templates.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\exams6.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = exams6.exe
+  TARGET_IMPLIB = libexams6.dll.a
+  TARGET_PDB = exams6.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target exams7
+
+
+#############################################
+# Order-only phony target for exams7
+
+build cmake_object_order_depends_target_exams7: phony || CMakeFiles/exams7.dir
+
+build CMakeFiles/exams7.dir/exams/playlist/playlist_main.cpp.obj: CXX_COMPILER__exams7_Debug S$:/Programming/C++/Programs/exams/playlist/playlist$ main.cpp || cmake_object_order_depends_target_exams7
+  DEP_FILE = CMakeFiles\exams7.dir\exams\playlist\playlist_main.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\exams7.dir
+  OBJECT_FILE_DIR = CMakeFiles\exams7.dir\exams\playlist
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target exams7
+
+
+#############################################
+# Link the executable exams7.exe
+
+build exams7.exe: CXX_EXECUTABLE_LINKER__exams7_Debug CMakeFiles/exams7.dir/exams/playlist/playlist_main.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\exams7.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = exams7.exe
+  TARGET_IMPLIB = libexams7.dll.a
+  TARGET_PDB = exams7.exe.dbg
+
+# =============================================================================
 # Object build statements for EXECUTABLE target files_1
 
 
@@ -1037,6 +1202,16 @@ build exams1: phony exams1.exe
 
 build exams2: phony exams2.exe
 
+build exams3: phony exams3.exe
+
+build exams4: phony exams4.exe
+
+build exams5: phony exams5.exe
+
+build exams6: phony exams6.exe
+
+build exams7: phony exams7.exe
+
 build files_1: phony files_1.exe
 
 build files_2: phony files_2.exe
@@ -1095,7 +1270,7 @@ build vectors_2: phony vectors_2.exe
 #############################################
 # Folder: S:/Programming/C++/Programs/cmake-build-debug
 
-build all: phony Programs.exe functions_1.exe functions_2.exe functions_templates_1.exe functions_templates_2.exe functions_recursion_1.exe functions_recursion_2.exe functions_recursion_3.exe loops1.exe arrays_1.exe exams1.exe exams2.exe files_1.exe files_2.exe files_3.exe files_4.exe files_5.exe vectors_1.exe vectors_2.exe pointers_1.exe pointers_2.exe pointers_3.exe pointers_4.exe pointers_5.exe pointers_6.exe pointers_7.exe pointers_8.exe pointers_9.exe pointers_10.exe
+build all: phony Programs.exe functions_1.exe functions_2.exe functions_templates_1.exe functions_templates_2.exe functions_recursion_1.exe functions_recursion_2.exe functions_recursion_3.exe loops1.exe arrays_1.exe exams1.exe exams2.exe exams3.exe exams4.exe exams5.exe exams6.exe exams7.exe files_1.exe files_2.exe files_3.exe files_4.exe files_5.exe vectors_1.exe vectors_2.exe pointers_1.exe pointers_2.exe pointers_3.exe pointers_4.exe pointers_5.exe pointers_6.exe pointers_7.exe pointers_8.exe pointers_9.exe pointers_10.exe
 
 # =============================================================================
 # Built-in targets

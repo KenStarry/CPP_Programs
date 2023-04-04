@@ -2,10 +2,10 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "files_1.exe"
+			"path" : "exams5.exe"
 		},
 		{
-			"path" : "files_1.pdb"
+			"path" : "exams5.pdb"
 		}
 	],
 	"backtrace" : 1,
@@ -56,7 +56,7 @@
 			]
 		}
 	],
-	"id" : "files_1::@6890427a1f51a3e7e1df",
+	"id" : "exams5::@6890427a1f51a3e7e1df",
 	"link" : 
 	{
 		"commandFragments" : 
@@ -76,8 +76,8 @@
 		],
 		"language" : "CXX"
 	},
-	"name" : "files_1",
-	"nameOnDisk" : "files_1.exe",
+	"name" : "exams5",
+	"nameOnDisk" : "exams5.exe",
 	"paths" : 
 	{
 		"build" : ".",
@@ -98,7 +98,7 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "files/writing_to_file.cpp",
+			"path" : "exams/function template to find minimum and maximum number.cpp",
 			"sourceGroupIndex" : 0
 		}
 	],

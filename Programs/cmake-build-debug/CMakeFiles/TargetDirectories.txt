@@ -10,6 +10,11 @@ S:/Programming/C++/Programs/cmake-build-debug/CMakeFiles/loops1.dir
 S:/Programming/C++/Programs/cmake-build-debug/CMakeFiles/arrays_1.dir
 S:/Programming/C++/Programs/cmake-build-debug/CMakeFiles/exams1.dir
 S:/Programming/C++/Programs/cmake-build-debug/CMakeFiles/exams2.dir
+S:/Programming/C++/Programs/cmake-build-debug/CMakeFiles/exams3.dir
+S:/Programming/C++/Programs/cmake-build-debug/CMakeFiles/exams4.dir
+S:/Programming/C++/Programs/cmake-build-debug/CMakeFiles/exams5.dir
+S:/Programming/C++/Programs/cmake-build-debug/CMakeFiles/exams6.dir
+S:/Programming/C++/Programs/cmake-build-debug/CMakeFiles/exams7.dir
 S:/Programming/C++/Programs/cmake-build-debug/CMakeFiles/files_1.dir
 S:/Programming/C++/Programs/cmake-build-debug/CMakeFiles/files_2.dir
 S:/Programming/C++/Programs/cmake-build-debug/CMakeFiles/files_3.dir
