@@ -17,26 +17,22 @@ int main() {
 
     ifstream results_fin(R"(S:\Programming\C++\Programs\files\my files\marks.csv)", ios::in);
 
-    vector<string> results_row;
+//    vector<string> results_row;
 
     //  temp uses the first column as the key
-    string line, marks, temp;
+    string line, mark, temp;
 
     int i = 0;
     while (results_fin >> temp) {
-
-        results_row.clear();
 
         getline(results_fin, line);
 
         stringstream s(line);
 
         int j = 0;
-        while (getline(s, marks, ',')) {
+        while (getline(s, mark, ',')) {
 
-            results_row.push_back(marks);
-
-            float markNum = stof(marks);
+            float markNum = stof(mark);
 
             data[i].at(j) = markNum;
             j++;
@@ -48,12 +44,11 @@ int main() {
 
     results_fin.close();
 
-    string studsLine, marksLine;
+    string studsLine;
     string reg, fname, lname;
 
     ofstream stud_results(R"(S:\Programming\C++\Programs\files\my files\results.csv)", ios::out);
     ifstream read_from_studs(R"(S:\Programming\C++\Programs\files\my files\students.txt)", ios::in);
-    ifstream read_from_marks(R"(S:\Programming\C++\Programs\files\my files\marks.csv)", ios::in);
 
     int iterate = 0;
     stud_results << "SR. No" << ", "
@@ -124,7 +119,6 @@ int main() {
     }
 
     read_from_studs.close();
-    read_from_marks.close();
     stud_results.close();
 
     return 0;

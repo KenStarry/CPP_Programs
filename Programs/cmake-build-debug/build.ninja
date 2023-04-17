@@ -608,6 +608,435 @@ build exams7.exe: CXX_EXECUTABLE_LINKER__exams7_Debug CMakeFiles/exams7.dir/exam
   TARGET_PDB = exams7.exe.dbg
 
 # =============================================================================
+# Object build statements for EXECUTABLE target exams8
+
+
+#############################################
+# Order-only phony target for exams8
+
+build cmake_object_order_depends_target_exams8: phony || CMakeFiles/exams8.dir
+
+build CMakeFiles/exams8.dir/exams/pointers/arithmetic_pointers.cpp.obj: CXX_COMPILER__exams8_Debug S$:/Programming/C++/Programs/exams/pointers/arithmetic$ pointers.cpp || cmake_object_order_depends_target_exams8
+  DEP_FILE = CMakeFiles\exams8.dir\exams\pointers\arithmetic_pointers.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\exams8.dir
+  OBJECT_FILE_DIR = CMakeFiles\exams8.dir\exams\pointers
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target exams8
+
+
+#############################################
+# Link the executable exams8.exe
+
+build exams8.exe: CXX_EXECUTABLE_LINKER__exams8_Debug CMakeFiles/exams8.dir/exams/pointers/arithmetic_pointers.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\exams8.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = exams8.exe
+  TARGET_IMPLIB = libexams8.dll.a
+  TARGET_PDB = exams8.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target exams9
+
+
+#############################################
+# Order-only phony target for exams9
+
+build cmake_object_order_depends_target_exams9: phony || CMakeFiles/exams9.dir
+
+build CMakeFiles/exams9.dir/exams/pointers/decrement_pointers.cpp.obj: CXX_COMPILER__exams9_Debug S$:/Programming/C++/Programs/exams/pointers/decrement$ pointers.cpp || cmake_object_order_depends_target_exams9
+  DEP_FILE = CMakeFiles\exams9.dir\exams\pointers\decrement_pointers.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\exams9.dir
+  OBJECT_FILE_DIR = CMakeFiles\exams9.dir\exams\pointers
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target exams9
+
+
+#############################################
+# Link the executable exams9.exe
+
+build exams9.exe: CXX_EXECUTABLE_LINKER__exams9_Debug CMakeFiles/exams9.dir/exams/pointers/decrement_pointers.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\exams9.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = exams9.exe
+  TARGET_IMPLIB = libexams9.dll.a
+  TARGET_PDB = exams9.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target exams10
+
+
+#############################################
+# Order-only phony target for exams10
+
+build cmake_object_order_depends_target_exams10: phony || CMakeFiles/exams10.dir
+
+build CMakeFiles/exams10.dir/exams/pointers/array_vs_pointers.cpp.obj: CXX_COMPILER__exams10_Debug S$:/Programming/C++/Programs/exams/pointers/array$ vs$ pointers.cpp || cmake_object_order_depends_target_exams10
+  DEP_FILE = CMakeFiles\exams10.dir\exams\pointers\array_vs_pointers.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\exams10.dir
+  OBJECT_FILE_DIR = CMakeFiles\exams10.dir\exams\pointers
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target exams10
+
+
+#############################################
+# Link the executable exams10.exe
+
+build exams10.exe: CXX_EXECUTABLE_LINKER__exams10_Debug CMakeFiles/exams10.dir/exams/pointers/array_vs_pointers.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\exams10.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = exams10.exe
+  TARGET_IMPLIB = libexams10.dll.a
+  TARGET_PDB = exams10.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target exams11
+
+
+#############################################
+# Order-only phony target for exams11
+
+build cmake_object_order_depends_target_exams11: phony || CMakeFiles/exams11.dir
+
+build CMakeFiles/exams11.dir/exams/class_template_intro.cpp.obj: CXX_COMPILER__exams11_Debug S$:/Programming/C++/Programs/exams/class$ template$ intro.cpp || cmake_object_order_depends_target_exams11
+  DEP_FILE = CMakeFiles\exams11.dir\exams\class_template_intro.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\exams11.dir
+  OBJECT_FILE_DIR = CMakeFiles\exams11.dir\exams
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target exams11
+
+
+#############################################
+# Link the executable exams11.exe
+
+build exams11.exe: CXX_EXECUTABLE_LINKER__exams11_Debug CMakeFiles/exams11.dir/exams/class_template_intro.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\exams11.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = exams11.exe
+  TARGET_IMPLIB = libexams11.dll.a
+  TARGET_PDB = exams11.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target exams12
+
+
+#############################################
+# Order-only phony target for exams12
+
+build cmake_object_order_depends_target_exams12: phony || CMakeFiles/exams12.dir
+
+build CMakeFiles/exams12.dir/exams/papers/huduma_.cpp.obj: CXX_COMPILER__exams12_Debug S$:/Programming/C++/Programs/exams/papers/huduma$ .cpp || cmake_object_order_depends_target_exams12
+  DEP_FILE = CMakeFiles\exams12.dir\exams\papers\huduma_.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\exams12.dir
+  OBJECT_FILE_DIR = CMakeFiles\exams12.dir\exams\papers
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target exams12
+
+
+#############################################
+# Link the executable exams12.exe
+
+build exams12.exe: CXX_EXECUTABLE_LINKER__exams12_Debug CMakeFiles/exams12.dir/exams/papers/huduma_.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\exams12.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = exams12.exe
+  TARGET_IMPLIB = libexams12.dll.a
+  TARGET_PDB = exams12.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target exams13
+
+
+#############################################
+# Order-only phony target for exams13
+
+build cmake_object_order_depends_target_exams13: phony || CMakeFiles/exams13.dir
+
+build CMakeFiles/exams13.dir/exams/papers/estimating_pi.cpp.obj: CXX_COMPILER__exams13_Debug S$:/Programming/C++/Programs/exams/papers/estimating$ pi.cpp || cmake_object_order_depends_target_exams13
+  DEP_FILE = CMakeFiles\exams13.dir\exams\papers\estimating_pi.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\exams13.dir
+  OBJECT_FILE_DIR = CMakeFiles\exams13.dir\exams\papers
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target exams13
+
+
+#############################################
+# Link the executable exams13.exe
+
+build exams13.exe: CXX_EXECUTABLE_LINKER__exams13_Debug CMakeFiles/exams13.dir/exams/papers/estimating_pi.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\exams13.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = exams13.exe
+  TARGET_IMPLIB = libexams13.dll.a
+  TARGET_PDB = exams13.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target exams14
+
+
+#############################################
+# Order-only phony target for exams14
+
+build cmake_object_order_depends_target_exams14: phony || CMakeFiles/exams14.dir
+
+build CMakeFiles/exams14.dir/exams/papers/perfect_numbers.cpp.obj: CXX_COMPILER__exams14_Debug S$:/Programming/C++/Programs/exams/papers/perfect$ numbers.cpp || cmake_object_order_depends_target_exams14
+  DEP_FILE = CMakeFiles\exams14.dir\exams\papers\perfect_numbers.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\exams14.dir
+  OBJECT_FILE_DIR = CMakeFiles\exams14.dir\exams\papers
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target exams14
+
+
+#############################################
+# Link the executable exams14.exe
+
+build exams14.exe: CXX_EXECUTABLE_LINKER__exams14_Debug CMakeFiles/exams14.dir/exams/papers/perfect_numbers.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\exams14.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = exams14.exe
+  TARGET_IMPLIB = libexams14.dll.a
+  TARGET_PDB = exams14.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target exams15
+
+
+#############################################
+# Order-only phony target for exams15
+
+build cmake_object_order_depends_target_exams15: phony || CMakeFiles/exams15.dir
+
+build CMakeFiles/exams15.dir/exams/papers/casino_wheel.cpp.obj: CXX_COMPILER__exams15_Debug S$:/Programming/C++/Programs/exams/papers/casino$ wheel.cpp || cmake_object_order_depends_target_exams15
+  DEP_FILE = CMakeFiles\exams15.dir\exams\papers\casino_wheel.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\exams15.dir
+  OBJECT_FILE_DIR = CMakeFiles\exams15.dir\exams\papers
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target exams15
+
+
+#############################################
+# Link the executable exams15.exe
+
+build exams15.exe: CXX_EXECUTABLE_LINKER__exams15_Debug CMakeFiles/exams15.dir/exams/papers/casino_wheel.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\exams15.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = exams15.exe
+  TARGET_IMPLIB = libexams15.dll.a
+  TARGET_PDB = exams15.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target exams16
+
+
+#############################################
+# Order-only phony target for exams16
+
+build cmake_object_order_depends_target_exams16: phony || CMakeFiles/exams16.dir
+
+build CMakeFiles/exams16.dir/exams/papers/softmax.cpp.obj: CXX_COMPILER__exams16_Debug S$:/Programming/C++/Programs/exams/papers/softmax.cpp || cmake_object_order_depends_target_exams16
+  DEP_FILE = CMakeFiles\exams16.dir\exams\papers\softmax.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\exams16.dir
+  OBJECT_FILE_DIR = CMakeFiles\exams16.dir\exams\papers
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target exams16
+
+
+#############################################
+# Link the executable exams16.exe
+
+build exams16.exe: CXX_EXECUTABLE_LINKER__exams16_Debug CMakeFiles/exams16.dir/exams/papers/softmax.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\exams16.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = exams16.exe
+  TARGET_IMPLIB = libexams16.dll.a
+  TARGET_PDB = exams16.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target exams17
+
+
+#############################################
+# Order-only phony target for exams17
+
+build cmake_object_order_depends_target_exams17: phony || CMakeFiles/exams17.dir
+
+build CMakeFiles/exams17.dir/exams/papers/taylor_series.cpp.obj: CXX_COMPILER__exams17_Debug S$:/Programming/C++/Programs/exams/papers/taylor$ series.cpp || cmake_object_order_depends_target_exams17
+  DEP_FILE = CMakeFiles\exams17.dir\exams\papers\taylor_series.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\exams17.dir
+  OBJECT_FILE_DIR = CMakeFiles\exams17.dir\exams\papers
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target exams17
+
+
+#############################################
+# Link the executable exams17.exe
+
+build exams17.exe: CXX_EXECUTABLE_LINKER__exams17_Debug CMakeFiles/exams17.dir/exams/papers/taylor_series.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\exams17.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = exams17.exe
+  TARGET_IMPLIB = libexams17.dll.a
+  TARGET_PDB = exams17.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target exams18
+
+
+#############################################
+# Order-only phony target for exams18
+
+build cmake_object_order_depends_target_exams18: phony || CMakeFiles/exams18.dir
+
+build CMakeFiles/exams18.dir/exams/papers/calendar.cpp.obj: CXX_COMPILER__exams18_Debug S$:/Programming/C++/Programs/exams/papers/calendar.cpp || cmake_object_order_depends_target_exams18
+  DEP_FILE = CMakeFiles\exams18.dir\exams\papers\calendar.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\exams18.dir
+  OBJECT_FILE_DIR = CMakeFiles\exams18.dir\exams\papers
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target exams18
+
+
+#############################################
+# Link the executable exams18.exe
+
+build exams18.exe: CXX_EXECUTABLE_LINKER__exams18_Debug CMakeFiles/exams18.dir/exams/papers/calendar.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\exams18.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = exams18.exe
+  TARGET_IMPLIB = libexams18.dll.a
+  TARGET_PDB = exams18.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target exams19
+
+
+#############################################
+# Order-only phony target for exams19
+
+build cmake_object_order_depends_target_exams19: phony || CMakeFiles/exams19.dir
+
+build CMakeFiles/exams19.dir/exams/papers/students_file.cpp.obj: CXX_COMPILER__exams19_Debug S$:/Programming/C++/Programs/exams/papers/students$ file.cpp || cmake_object_order_depends_target_exams19
+  DEP_FILE = CMakeFiles\exams19.dir\exams\papers\students_file.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\exams19.dir
+  OBJECT_FILE_DIR = CMakeFiles\exams19.dir\exams\papers
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target exams19
+
+
+#############################################
+# Link the executable exams19.exe
+
+build exams19.exe: CXX_EXECUTABLE_LINKER__exams19_Debug CMakeFiles/exams19.dir/exams/papers/students_file.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\exams19.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = exams19.exe
+  TARGET_IMPLIB = libexams19.dll.a
+  TARGET_PDB = exams19.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target exams20
+
+
+#############################################
+# Order-only phony target for exams20
+
+build cmake_object_order_depends_target_exams20: phony || CMakeFiles/exams20.dir
+
+build CMakeFiles/exams20.dir/exams/papers/students_marks.cpp.obj: CXX_COMPILER__exams20_Debug S$:/Programming/C++/Programs/exams/papers/students$ marks.cpp || cmake_object_order_depends_target_exams20
+  DEP_FILE = CMakeFiles\exams20.dir\exams\papers\students_marks.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\exams20.dir
+  OBJECT_FILE_DIR = CMakeFiles\exams20.dir\exams\papers
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target exams20
+
+
+#############################################
+# Link the executable exams20.exe
+
+build exams20.exe: CXX_EXECUTABLE_LINKER__exams20_Debug CMakeFiles/exams20.dir/exams/papers/students_marks.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\exams20.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = exams20.exe
+  TARGET_IMPLIB = libexams20.dll.a
+  TARGET_PDB = exams20.exe.dbg
+
+# =============================================================================
 # Object build statements for EXECUTABLE target files_1
 
 
@@ -1200,7 +1629,29 @@ build arrays_1: phony arrays_1.exe
 
 build exams1: phony exams1.exe
 
+build exams10: phony exams10.exe
+
+build exams11: phony exams11.exe
+
+build exams12: phony exams12.exe
+
+build exams13: phony exams13.exe
+
+build exams14: phony exams14.exe
+
+build exams15: phony exams15.exe
+
+build exams16: phony exams16.exe
+
+build exams17: phony exams17.exe
+
+build exams18: phony exams18.exe
+
+build exams19: phony exams19.exe
+
 build exams2: phony exams2.exe
+
+build exams20: phony exams20.exe
 
 build exams3: phony exams3.exe
 
@@ -1211,6 +1662,10 @@ build exams5: phony exams5.exe
 build exams6: phony exams6.exe
 
 build exams7: phony exams7.exe
+
+build exams8: phony exams8.exe
+
+build exams9: phony exams9.exe
 
 build files_1: phony files_1.exe
 
@@ -1270,7 +1725,7 @@ build vectors_2: phony vectors_2.exe
 #############################################
 # Folder: S:/Programming/C++/Programs/cmake-build-debug
 
-build all: phony Programs.exe functions_1.exe functions_2.exe functions_templates_1.exe functions_templates_2.exe functions_recursion_1.exe functions_recursion_2.exe functions_recursion_3.exe loops1.exe arrays_1.exe exams1.exe exams2.exe exams3.exe exams4.exe exams5.exe exams6.exe exams7.exe files_1.exe files_2.exe files_3.exe files_4.exe files_5.exe vectors_1.exe vectors_2.exe pointers_1.exe pointers_2.exe pointers_3.exe pointers_4.exe pointers_5.exe pointers_6.exe pointers_7.exe pointers_8.exe pointers_9.exe pointers_10.exe
+build all: phony Programs.exe functions_1.exe functions_2.exe functions_templates_1.exe functions_templates_2.exe functions_recursion_1.exe functions_recursion_2.exe functions_recursion_3.exe loops1.exe arrays_1.exe exams1.exe exams2.exe exams3.exe exams4.exe exams5.exe exams6.exe exams7.exe exams8.exe exams9.exe exams10.exe exams11.exe exams12.exe exams13.exe exams14.exe exams15.exe exams16.exe exams17.exe exams18.exe exams19.exe exams20.exe files_1.exe files_2.exe files_3.exe files_4.exe files_5.exe vectors_1.exe vectors_2.exe pointers_1.exe pointers_2.exe pointers_3.exe pointers_4.exe pointers_5.exe pointers_6.exe pointers_7.exe pointers_8.exe pointers_9.exe pointers_10.exe
 
 # =============================================================================
 # Built-in targets
